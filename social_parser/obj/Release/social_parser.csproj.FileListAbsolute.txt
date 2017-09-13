@@ -1,0 +1,57 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\AngleSharp.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\CsQuery.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Facebook.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Auth.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Auth.PlatformServices.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Core.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.PlatformServices.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.YouTube.v3.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Hammock.ClientProfile.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\JetBrains.Annotations.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\NPOI.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\NPOI.OOXML.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\NPOI.OpenXml4Net.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\TweetSharp.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\VkNet.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Zlib.Portable.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\AngleSharp.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\CsQuery.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Facebook.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Auth.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Auth.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Auth.PlatformServices.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Core.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.Core.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.PlatformServices.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.PlatformServices.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.YouTube.v3.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Google.Apis.YouTube.v3.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Hammock.ClientProfile.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\JetBrains.Annotations.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\NPOI.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\TweetSharp.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\VkNet.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Zlib.Portable.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\social_parser.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\social_parser.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Social parser.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\SocialParser.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Social parser.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\bin\Release\Social parser.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\SocialParser.Form1.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\SocialParser.NewSiteDBChangeForm.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\Social parser.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\Social parser.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\obj\Release\social_parser.csproj.Social parser.exe.config

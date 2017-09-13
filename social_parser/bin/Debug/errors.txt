@@ -1,0 +1,230 @@
+25.04.2017 12:34:14: System.Net.WebException: Невозможно разрешить удаленное имя: 'vk.com'
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в social_parser.Sourcess.ParsableMetricsSource.GetHtml(Uri postInfoUri) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\ParserMetricsSource.cs:строка 94
+   в social_parser.Sourcess.VK.GetMetricsFromWeb(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\Vk.cs:строка 60
+   в social_parser.Sourcess.ParsableMetricsSource.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\ParserMetricsSource.cs:строка 37
+   в social_parser.Form1.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Form1.cs:строка 110
+   в social_parser.Form1.SetValue(String inp, IRow inputRow) в C:\Users\Us25.04.2017 12:34:16: System.Net.Http.HttpRequestException: Произошла ошибка при отправке запроса. ---> System.Net.WebException: Невозможно разрешить удаленное имя: 'www.googleapis.com'
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Google.Apis.Requests.ClientServiceRequest`1.Execute() в C:\Apiary\v1.24.1\google-api-dotnet-client\Src\Support\GoogleApis\Apis\Requests\ClientServiceRequest.cs:строка 101
+   в social_parser.Sourcess.Youtube.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\Youtube.cs:строка 24
+   в social_parser.Form1.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Form1.cs:строка 110
+   в social_parser.Form1.SetValue(String inp, IRow inputRow) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parse25.04.2017 12:34:23: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:24: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:25: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:26: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:26: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:27: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:27: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:28: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:34:29: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:08: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:12: System.Net.Http.HttpRequestException: Произошла ошибка при отправке запроса. ---> System.Net.WebException: Невозможно разрешить удаленное имя: 'www.googleapis.com'
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Google.Apis.Requests.ClientServiceRequest`1.Execute() в C:\Apiary\v1.24.1\google-api-dotnet-client\Src\Support\GoogleApis\Apis\Requests\ClientServiceRequest.cs:строка 101
+   в social_parser.Sourcess.Youtube.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\Youtube.cs:строка 24
+   в social_parser.Form1.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Form1.cs:строка 110
+   в social_parser.Form1.SetValue(String inp, IRow inputRow) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parse25.04.2017 12:41:14: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:17: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:18: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:19: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:32: System.Net.WebException: Невозможно разрешить удаленное имя: 'vk.com'
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в social_parser.Sourcess.ParsableMetricsSource.GetHtml(Uri postInfoUri) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\ParserMetricsSource.cs:строка 94
+   в social_parser.Sourcess.VK.GetMetricsFromWeb(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\Vk.cs:строка 60
+   в social_parser.Sourcess.ParsableMetricsSource.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\ParserMetricsSource.cs:строка 37
+   в social_parser.Form1.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Form1.cs:строка 110
+   в social_parser.Form1.SetValue(String inp, IRow inputRow) в C:\Users\Us25.04.2017 12:41:34: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:35: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:36: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:37: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:38: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:38: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:39: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:39: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:40: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:40: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:45: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:47: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:47: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:53: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:41:54: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:42:33: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+25.04.2017 12:43:02: Facebook.WebExceptionWrapper: Невозможно разрешить удаленное имя: 'graph.facebook.com'
+   в Facebook.HttpHelper.OpenRead()
+   в Facebook.FacebookClient.Api(HttpMethod httpMethod, String path, Object parameters, Type resultType)
+   в Facebook.FacebookClient.Get(String path, Object parameters, Type resultType)
+   в social_parser.Sourcess.FB.IsFromApi(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\FB.cs:строка 337
+03.05.2017 21:19:59: System.Reflection.TargetInvocationException: Невозможно получить дескриптор окна для элемента управления 'WebBrowser'. Элементы управления ActiveX, не базирующиеся на окнах, не поддерживаются. ---> System.InvalidOperationException: Недопустимая операция в нескольких потоках: попытка доступа к элементу управления '' не из того потока, в котором он был создан.
+   в System.Windows.Forms.Control.get_Handle()
+   в System.Windows.Forms.WebBrowserBase.DoVerb(Int32 verb)
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   в System.Windows.Forms.WebBrowserBase.TransitionUpTo(AXState state)
+   в System.Windows.Forms.WebBrowser.get_AxIWebBrowser2()
+   в System.Windows.Forms.WebBrowser.PerformNavigate2(Object& URL, Object& flags, Object& targetFrameName, Object& postData, Object& headers)
+   в System.Windows.Forms.WebBrowser.03.05.2017 21:23:37: System.Reflection.TargetInvocationException: Невозможно получить дескриптор окна для элемента управления 'WebBrowser'. Элементы управления ActiveX, не базирующиеся на окнах, не поддерживаются. ---> System.InvalidOperationException: Недопустимая операция в нескольких потоках: попытка доступа к элементу управления '' не из того потока, в котором он был создан.
+   в System.Windows.Forms.Control.get_Handle()
+   в System.Windows.Forms.WebBrowserBase.DoVerb(Int32 verb)
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   в System.Windows.Forms.WebBrowserBase.TransitionUpTo(AXState state)
+   в System.Windows.Forms.WebBrowser.get_AxIWebBrowser2()
+   в System.Windows.Forms.WebBrowser.PerformNavigate2(Object& URL, Object& flags, Object& targetFrameName, Object& postData, Object& headers)
+   в System.Windows.Forms.WebBrowser.Navigate(String urlString, String targetFrameName, Byte[] postData, String additionalHeaders)
+   в social_parser.Sourcess.NewsSiteWithWiewCount.NavigateInBrowser(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\NewsSiteWithWiewCount.cs:строка 26
+   в social_parser.Sourcess.NewsSiteWithWiewCount.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\NewsSiteWithWiewCount.cs:строка 51
+   в social_parser.Sourcess.NewsSite.GetMetricsFromWeb(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\NewsSite.cs:строка 44
+   в social_parser.Sourcess.ParsableMetricsSource.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\ParserMetricsSource.cs:строка 37
+   в social_parser.Form1.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Form1.cs03.05.2017 21:30:07: System.Reflection.TargetInvocationException: Невозможно получить дескриптор окна для элемента управления 'WebBrowser'. Элементы управления ActiveX, не базирующиеся на окнах, не поддерживаются. ---> System.InvalidOperationException: Недопустимая операция в нескольких потоках: попытка доступа к элементу управления '' не из того потока, в котором он был создан.
+   в System.Windows.Forms.Control.get_Handle()
+   в System.Windows.Forms.WebBrowserBase.DoVerb(Int32 verb)
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   в System.Windows.Forms.WebBrowserBase.TransitionUpTo(AXState state)
+   в System.Windows.Forms.WebBrowser.get_AxIWebBrowser2()
+   в System.Windows.Forms.WebBrowser.PerformNavigate2(Object& URL, Object& flags, Object& targetFrameName, Object& postData, Object& headers)
+   в System.Windows.Forms.WebBrowser.Navigate(String urlString, String targetFrameName, Byte[] postData, String additionalHeaders)
+   в social_parser.Sourcess.NewsSiteWithWiewCount.NavigateInBrowser(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\NewsSiteWithWiewCount.cs:строка 26
+   в social_parser.Sourcess.NewsSiteWithWiewCount.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\NewsSiteWithWiewCount.cs:строка 51
+   в social_parser.Sourcess.NewsSite.GetMetricsFromWeb(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\NewsSite.cs:строка 44
+   в social_parser.Sourcess.ParsableMetricsSource.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Sourcess\ParserMetricsSource.cs:строка 37
+   в social_parser.Form1.GetMetrics(String href) в C:\Users\User\Documents\Visual Studio 2015\Projects\social_parser\social_parser\Form1.cs03.05.2017 21:58:15: System.Reflection.TargetInvocationException: Невозможно получить дескриптор окна для элемента управления 'WebBrowser'. Элементы управления ActiveX, не базирующиеся на окнах, не поддерживаются. ---> System.InvalidOperationException: Недопустимая операция в нескольких потоках: попытка доступа к элементу управления '' не из того потока, в котором он был создан.
+   в System.Windows.Forms.Control.get_Handle()
+   в System.Windows.Forms.WebBrowserBase.DoVerb(Int32 verb)
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Windows.Forms.WebBrowserBase.TransitionFromRunningToInPlaceActive()
+   в System.Windows.Forms.WebBrowserBase.TransitionUpTo(AXState state)
+   в System.Windows.Forms.WebBrowser.get_AxIWebBrowser2()
+   в System.Windows.Forms.WebBrowser.PerformNavigate2(Object& URL, Object& flags, Object& targetFrameName, Object& postData, Object& headers)
+   в System.Windows.Forms.WebBrowser.
