@@ -14,3 +14,5 @@ There is ability to connect through proxy servers, just add file with them into 
 
 
 Before using you must set necsecary information about programs that use Twitter, facebook, vk and youtube API into config file.
+
+<img src="Release/logo/sp.jpg">
